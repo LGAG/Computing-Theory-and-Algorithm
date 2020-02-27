@@ -21,6 +21,7 @@ int main(void) {
 		else printf("%d.5\n",x/2+y/2);
 	} 
 	printf("%d\n",x);
+	system ("pause");
 }
 
 int find(int start, int end, int rank, int target, int a[]) {
